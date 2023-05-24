@@ -1,0 +1,399 @@
+$fondo-titulos:rgb(1, 1, 102); 
+$color-letras-titulos: white;
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 200px;
+    display: block;
+    margin:auto;
+    
+}
+ul {
+    list-style: none;
+    padding:20px;
+    font-size:0 
+}
+li {
+    display: inline-block;
+    width: 25%;
+    font-size: 20px;
+    font-style: italic;
+    }
+ul ul {
+    position: absolute;
+    display: none;
+}
+ul ul li {
+    display: block;
+    width: auto;
+}
+li a{
+    text-decoration: none;
+    display: inline-block;
+    color: goldenrod; 
+}
+li a:hover{
+    font-weight: bold;
+}
+ul li:hover ul {
+    display:block;
+    background-color: rgba(255, 255, 255, 0.726);
+}
+    .institucion{
+    width:50%;
+    padding-bottom: 25px;
+}
+.image{
+    height:  210px;
+    border-radius: 15%;
+}
+.image:hover{
+    opacity: .7;
+}
+.frase{
+    background-color: rgb(13, 13, 105);
+    padding-bottom: 25px;
+    padding:25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    font-style: italic;
+    font-size: 40px;
+    color: $color-letras-titulos;
+    text-align:center;
+}
+#imgfoot{
+    margin:0;
+    margin-top: 30px;
+}
+.foot{
+    background-color: rgba(190, 5, 14, 0.87);
+    display: flex;
+    justify-content: space-around;
+    color:$color-letras-titulos;
+    margin: 0px;
+    width: 100%;
+}
+.datos{
+    display: block;
+    justify-content: space-around;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+.datos h2{
+    text-decoration: none;
+    color:$color-letras-titulos;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder
+}
+.redes a{
+    text-decoration: none;
+    color:$color-letras-titulos;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.redes{
+    display: block;
+}
+.docdire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 26px;
+}
+.docini{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 26px;
+}
+.docprim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 26px;
+}
+.docsec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 26px;
+}
+.autori{
+    text-align: center;
+    font-style: italic;
+    font-weight:bold;
+    margin-bottom: 26px;
+    
+}
+.imgdoc{
+    height: 160px;
+    padding-top: 20px;
+}
+.imgdoc:hover{
+    opacity: .7;
+    border-radius: 40%;
+}
+.tit{
+    background-color:$fondo-titulos;
+    color: $color-letras-titulos;
+    text-align: center;
+}
+.univ {
+    font-size: 25px;
+    color: $fondo-titulos;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.univlogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 26px;
+}
+.parrafos{
+    font-size: 20px;
+    color:$fondo-titulos;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.listas{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.college{
+    z-index: -1;
+    position:absolute;
+    width:98%;
+    opacity: .2;
+}
+.parrafos2{
+    font-size: 15px;
+    color: $fondo-titulos;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.collegex{
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.histodo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.historiap{
+    margin: 20px;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: justify;
+font-weight: bold;
+color: $fondo-titulos;
+font-style: italic;
+}
+.btn {
+    display: block;
+    margin: 10px;
+    font-weight: bold;
+    background-color:$fondo-titulos;
+    color:$color-letras-titulos;
+}
+    div {
+    margin: 10px;
+}
+    div label {
+    width: 25%;
+    float: left;
+    font-weight: bold;
+    
+}
+.alum{
+    margin: 30px;
+    display: block;
+    font-weight: bold;
+    background-color: goldenrod;
+}
+.padres{
+    margin: 30px;
+    background-color: goldenrod;
+    display: block;
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+    color:$color-letras-titulos;
+    font-size: 50px;
+    padding: 20px;
+}
+.inscripcion{
+    animation: .5s infinite;
+    animation-name: texto;
+}
+@keyframes texto{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+        color:$fondo-titulos;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.todo {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 0px 0px;
+    grid-auto-flow:row;
+    grid-template-areas:
+    "tit tit"
+    "inscripcion aside"
+    "formulario aside";
+}
+    .inscripcion { grid-area: inscripcion; } 
+    .formulario { grid-area: formulario; }
+    .aside { grid-area: aside;
+    background-color: $fondo-titulos; }
+    .tit { grid-area: tit;
+}
+.carrusel{
+    width:95%;
+    z-index: -1;
+}
+.niv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 26px;
+    figure{
+        position:relative;
+        cursor: pointer;
+        width: 350px;
+        overflow: hidden;
+        border-radius: 6px;
+    }
+    figure img{
+        width: 100%;
+        transition: all 900ms ease-out;
+        will-change: transform;
+    }
+    figure .tithover{
+        position: absolute;
+        top: 0;
+        width: 95%;
+        height: 90%;
+        background: rgba(18, 1, 59, 0.589);
+        transition: all 700ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+        text-align: center;
+    }
+    figure:hover > .tithover {
+        opacity: 1;
+        visibility: visible;
+    }
+    figure:hover > .tithover h5{
+        margin-top: 85px;
+        margin-bottom: 15px;
+    }
+    figure:hover > img{
+        transform: scale(1.3);
+    }
+    figure .tithover h5{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: goldenrod;
+        font-size: 35px;
+        margin-top: 85px;
+    }
+}
+.fondo{
+    background-image: linear-gradient(to left,rgba(0, 0, 255, 0.548), rgba(0, 0, 255, 0.308),rgba(218, 165, 32, 0.5),rgba(218, 165, 32, 0.87));
+}
+.ingreso {
+    @include sizes(90%,80%);}
+@media only screen and (max-width: 500px){
+    .todo{
+        grid-template-columns: 30fr 1fr;
+        grid-template-areas: 
+        "tit tit"
+        "inscripcion inscripcion"
+        "formulario formulario"
+        "aside aside";
+    }
+    .historiap{
+        font-size: 16px;
+    }
+    .menu ul li{
+        display:block;
+    }
+    ul li:hover ul {
+        display:block;
+        background-color: rgb(255, 255, 255);
+    }
+    .foot{
+        display: block;
+    }
+    .docdire{
+        display: block;
+    }
+    .docini{
+        display: block;
+    }
+    .docprim{
+        display: block;
+    }
+    .docsec{
+        display: block;
+    }
+    .univlogos{
+        display: block;
+    }
+    .niv {
+        display: block;
+    }
+    .niv figure{
+        margin:auto;
+        padding-top: 20px;
+    }
+    .carrusel{
+        width: 90%;
+    }
+    .univ p{
+        font-size: 16px;
+    }
+    .parrafos{
+        font-size: 16px;
+    }
+    .listas{
+     font-size: 16px;
+    }
+    .ingreso {
+            @include sizes(80%,60%); }
+}

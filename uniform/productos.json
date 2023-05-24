@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "name": "Uniforme 1",
+    "price": 10000,
+    "image": "img/img1.jpg",
+    "quantity": 1
+  },
+  {
+    "id": 2,
+    "name": "Uniforme 2",
+    "price": 15000,
+    "image": "img/img2.jpg",
+    "quantity": 1
+  },
+  {
+    "id": 3,
+    "name": "Uniforme 3",
+    "price": 20000,
+    "image": "img/img3.png",
+    "quantity": 1
+  },
+  {
+    "id": 4,
+    "name": "Uniforme 4",
+    "price": 25000,
+    "image": "img/img4.png",
+    "quantity": 1
+  },
+  {
+    "id": 5,
+    "name": "Uniforme 5",
+    "price": 30000,
+    "image": "img/img5.jpg",
+    "quantity": 1
+  },
+  {
+    "id": 6,
+    "name": "Uniforme 6",
+    "price": 35000,
+    "image": "img/img6.jpg",
+    "quantity": 1
+  },
+  {
+    "id": 7,
+    "name": "Uniforme 7",
+    "price": 40000,
+    "image": "img/img7.jpg",
+    "quantity": 1
+  },
+  {
+    "id": 8,
+    "name": "Uniforme 8",
+    "price": 45000,
+    "image": "img/img8.jpg",
+    "quantity": 1
+  },
+  {
+    "id": 9,
+    "name": "Uniforme 9",
+    "price": 55000,
+    "image": "img/img9.png",
+    "quantity": 1
+  },
+  {
+    "id": 10,
+    "name": "Uniforme 10",
+    "price": 50000,
+    "image": "img/img10.png",
+    "quantity": 1
+  },
+  {
+    "id": 11,
+    "name": "Uniforme 11",
+    "price": 65000,
+    "image": "img/img11.jpg",
+    "quantity": 1
+  },
+  {
+    "id": 12,
+    "name": "Uniforme 12",
+    "price": 75000,
+    "image": "img/img12.jpg",
+    "quantity": 1
+  },
+  {
+    "id": 13,
+    "name": "Uniforme 13",
+    "price": 60000,
+    "image": "img/img13.jpg",
+    "quantity": 1
+  },
+  {
+    "id": 14,
+    "name": "Uniforme 14",
+    "price": 85000,
+    "image": "img/img14.jpg",
+    "quantity": 1
+  }
+]
